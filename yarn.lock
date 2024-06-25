@@ -1706,10 +1706,9 @@
     semver "^7.3.2"
     tsutils "^3.17.1"
 
-"@uniswap/sdk-core@^3.0.0-alpha.3":
-  version "3.0.0-alpha.3"
-  resolved "https://registry.yarnpkg.com/@uniswap/sdk-core/-/sdk-core-3.0.0-alpha.3.tgz#a742b430a9587fe48384aa5007706d225497c875"
-  integrity sha512-SS6fFbFZT2s/oq1dCdbqLGppVszfL1dkP8uQOIgXm9qecH9Vt70zTwQU73bLP2VskFZcpkN5inTAwSZiZSs5wA==
+"@uniswap/sdk-core@https://github.com/0xdefi-club/dtx-swap-sdk-core.git":
+  version "3.0.1"
+  resolved "https://github.com/0xdefi-club/dtx-swap-sdk-core.git#fd00008843c2345bf26cbf4867edcda6a7f54389"
   dependencies:
     "@ethersproject/address" "^5.0.2"
     big.js "^5.2.2"
